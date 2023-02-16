@@ -17,7 +17,7 @@
 #supports package
 #baegle.jar
 print("beagle is being downloaded …………")
-download.file("https://raw.githubusercontent.com/liu-xinrui/data/main/beagle.jar",destfile = "beagle.jar" , mode='wb')
+download.file("https://raw.githubusercontent.com/QinJieqq/KBeagle/raw/main/beagle.jar",destfile = "beagle.jar" , mode='wb')
 print(paste("beagle supports java package downloads to ",getwd(),sep=""))
 #data.table
 library(data.table)
